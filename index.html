@@ -1,74 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Perfil de DevOps</title>
+    <title>Meu Perfil</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        header {
-            background-color: #0a0b0b;
-            color: #fff;
+            max-width: 800px;
+            margin: auto;
             padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile {
             text-align: center;
         }
-        section {
-            padding: 20px;
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
         }
         h1, h2, h3 {
-            color: #007bff;
+            color: #333;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
+        .section {
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <header>
-         <!-- Logo aqui -->
-         <img src="https://fabiolimanunes.github.io/img/img02.png" alt="Logo da Empresa">
-        <h1>Olá, eu sou Fábio Lima Nunes</h1>
-    </header>
-    <section>
-        <h2>Sobre Mim</h2>
-        <p>Sou um profissional de DevOps com experiência em automatização de processos de desenvolvimento, integração contínua, entrega contínua e implantação contínua. Sou apaixonado por encontrar maneiras de otimizar e melhorar a eficiência dos fluxos de trabalho de desenvolvimento.</p>
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Automatização de processos com ferramentas como Ansible, Puppet e Chef</li>
-            <li>Configuração e gerenciamento de pipelines de CI/CD com Jenkins, GitHub Actions, GitLab CI/CD</li>
-            <li>Orquestração de contêineres com Kubernetes e Docker Swarm</li>
-            <li>Implantação de aplicações em nuvem pública (AWS, Azure, Google Cloud)</li>
-            <li>Monitoramento e logging com Prometheus, Grafana, ELK Stack</li>
-            <li>Gerenciamento de configuração com Terraform</li>
-            <li>Versionamento de infraestrutura com Git</li>
-        </ul>
-        <h2>Projetos Destacados</h2>
-        <ul>
-            <li><a href="link_para_o_projeto">Projeto 1</a>: Breve descrição do projeto e sua contribuição para ele.</li>
-            <li><a href="link_para_o_projeto">Projeto 2</a>: Breve descrição do projeto e sua contribuição para ele.</li>
-            <li><a href="link_para_o_projeto">Projeto 3</a>: Breve descrição do projeto e sua contribuição para ele.</li>
-        </ul>
-        <h2>Contato</h2>
-        <p>Email: <a href="mailto:fabiolimanunes@outlook.com">fabiolimanunes@outlook.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/fabiolimanunes">Fábio Lima Nunes</a></p>
-        <p>Website: <a href="link_para_seu_website">fltec.dev.br</a></p>
-    </section>
+    <div class="container">
+        <div class="profile">
+            <img src="img/img02.png" alt="Minha Foto">
+            <h1>Fábio Lima Nunes</h1>
+            <h2>DevOps Engineer </h2>
+            <p>Seu resumo profissional aqui. Destaque suas principais habilidades e experiência.</p>
+        </div>
+        
+        <div class="section">
+            <h3>Experiência Profissional</h3>
+            <ul>
+                <li><strong>Empresa X</strong> - Cargo (Ano - Ano)</li>
+                <li><strong>Empresa Y</strong> - Cargo (Ano - Ano)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Habilidades</h3>
+            <ul>
+                <li>Habilidade 1</li>
+                <li>Habilidade 2</li>
+                <li>Habilidade 3</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Contato</h3>
+            <p>Email: fabiolimanunes@hotmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/fabiolimanunes/" target="_blank">seu perfil</a></p>
+        </div>
+    </div>
 </body>
 </html>
